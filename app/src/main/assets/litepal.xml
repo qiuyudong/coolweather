@@ -9,7 +9,7 @@
     </version>
 
     <list>
-        <mapping class="com.example.qiuyudong.coolweather.db.Provice" />
+        <mapping class="com.example.qiuyudong.coolweather.db.Province" />
         <mapping class="com.example.qiuyudong.coolweather.db.City" />
         <mapping class="com.example.qiuyudong.coolweather.db.County" />
     </list>

@@ -11,10 +11,10 @@ import org.litepal.crud.DataSupport;
  *     version: 1.0
  * </pre>
  */
-public class Provice extends DataSupport {
+public class Province extends DataSupport {
     private int id;
     private String provinceName;  //省名
-    private int proviceCode;  //省的代号
+    private int provinceCode;  //省的代号
 
     public int getId() {
         return id;
@@ -32,11 +32,11 @@ public class Provice extends DataSupport {
         this.provinceName = provinceName;
     }
 
-    public int getProviceCode() {
-        return proviceCode;
+    public int getProvinceCode() {
+        return provinceCode;
     }
 
-    public void setProviceCode(int proviceCode) {
-        this.proviceCode = proviceCode;
+    public void setProvinceCode(int proviceCode) {
+        this.provinceCode = proviceCode;
     }
 }
